@@ -30,6 +30,7 @@ Next, we'll check if Tensorflow can connect to the GPU: By executing the followi
 # Check if NVIDIA GPU is enabled
 !nvidia-smi
 ```
+![Screenshot from 2023-04-07 20-12-06](https://user-images.githubusercontent.com/76246927/230632568-464bde47-e3f6-41d8-a550-e7285e08c8df.png)
 
 # **Step 2**
 Mounting the Drive to store and load files.
