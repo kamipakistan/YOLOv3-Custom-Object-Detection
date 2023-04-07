@@ -1,4 +1,4 @@
-<a href="https://github.com/kamipakistan/YOLOv3-Custom-Object-Detection/blob/main/notebook/YOLOv3Custom_object_training.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
+<a href="https://colab.research.google.com/drive/1voayMVQS91J05U_gti3BMjHKYImevcDQ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
 
 # **Custom object training with YOLOv3 and Darknet**
