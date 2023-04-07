@@ -248,3 +248,4 @@ def imShow(path):
 %cd {HOME}/darknet
 imShow('predictions.jpg')
 ```
+![alt text for screen readers](https://drive.google.com/file/d/1BNXaMhsrZ7cSrbe1aNV48gqwrENCedhW/view?usp=share_link "Model Predictions")
