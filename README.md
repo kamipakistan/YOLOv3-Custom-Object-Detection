@@ -1,6 +1,7 @@
 <a href="https://colab.research.google.com/drive/1voayMVQS91J05U_gti3BMjHKYImevcDQ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
 
-![yologo_2](https://user-images.githubusercontent.com/76246927/230722882-4395259b-ab3b-4f11-9f34-edd74b0b521d.png)
+<!-- ![yologo_2](https://user-images.githubusercontent.com/76246927/230722882-4395259b-ab3b-4f11-9f34-edd74b0b521d.png) -->
+<img src="image name" alt= “https://user-images.githubusercontent.com/76246927/230722882-4395259b-ab3b-4f11-9f34-edd74b0b521d.png” width=200 height=400>
 
 # **Custom object training with YOLOv3 and Darknet**
 
