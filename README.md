@@ -125,6 +125,11 @@ images/armas (1007).jpg
 ## *Creating Backup directory*
 Creating backup directory for storing weights of the trained model.
 
+```
+%cd {HOME}
+os.mkdir("backup")
+```
+
 # **Step 8**
 ## *Creating YOLO data file*
 Make a file called "detector.data" in the "YOLOV3_Custom" directory that contains details about the train and test data sets.
