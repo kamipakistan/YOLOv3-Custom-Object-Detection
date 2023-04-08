@@ -126,3 +126,4 @@ while cap.isOpened():
             break
     else:
         print("Did not read the frame")
+        
