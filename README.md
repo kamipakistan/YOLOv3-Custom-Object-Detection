@@ -102,7 +102,28 @@ Labels of our objects should be saved in **YOLOV3_Custom/custom.names** file, ea
 ```
 Pistol
 ```
+# **Step 6**
+## *Creating Train and Test files*
+The annotated photos can then be randomly split into train and test sets in a **80:20** ratio.
 
+**YOLOV3_Custom/train.txt** Inside the train.txt paths of the 80% images should be listed.
+
+**YOLOV3_Custom/test.txt**  Inside the test.txt paths of the 20% images should be listed.
+**train.txt**
+```
+images/armas (1000).jpg
+images/armas (1001).jpg
+images/armas (1002).jpg
+images/armas (1003).jpg
+images/armas (1004).jpg
+images/armas (1005).jpg
+images/armas (1006).jpg
+images/armas (1007).jpg
+
+```
+# **Step 7**
+## *Creating Backup directory*
+Creating backup directory for storing weights of the trained model.
 
 # **Step 8**
 ## *Creating YOLO data file*
@@ -253,3 +274,5 @@ def imShow(path):
 imShow('predictions.jpg')
 ```
 ![predictions](https://user-images.githubusercontent.com/76246927/230632314-8c2fa863-36ab-4eb6-adf7-a4c9095ca577.jpg)
+
+For inference use the python file which is inside the inference directory.
