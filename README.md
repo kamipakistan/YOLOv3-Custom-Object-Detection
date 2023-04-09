@@ -109,8 +109,8 @@ images/armas (1004).jpg
 images/armas (1005).jpg
 images/armas (1006).jpg
 images/armas (1007).jpg
-
 ```
+`Note`: If you are facing path issues please provide absolute(complete) paths of the images in the train.txt and valid.txt.
 # **Step 7**
 ## *Creating Backup directory*
 Creating backup directory for storing weights of the trained model.
@@ -123,6 +123,7 @@ os.mkdir("backup")
 # **Step 8**
 ## *Creating YOLO data file*
 Make a file called "detector.data" in the "YOLOV3_Custom" directory that contains details about the train and test data sets.
+`Note`: If you are facing path issues please provide absolute(complete) path to the specified file
 
 **detector.data**
 ```
