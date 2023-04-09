@@ -8,22 +8,7 @@
 
 # **Custom object training with YOLOv3 and Darknet**
 
-The phrase "You Only Look Once" is referred to as YOLO. 
-This method detects and recognizes various objects in images (in real-time). 
-YOLO performs object detection as a regression problem and outputs the class probabilities of the detected photos.
-
-
-Convolutional neural networks (CNN) are used by the YOLO method to recognize items instantly. 
-As the name implies, the algorithm only needs one forward propagation through a neural network to detect objects.
-
-
-As a result, a single algorithm run is used to do prediction throughout the entire image. 
-Simultaneously, several class probabilities and bounding boxes are predicted using CNN.
-
-
-There are numerous variations of the YOLO algorithm. One of them is 
-**YOLOv3**.
-
+`YOLOv3`, short for You Only Look Once version 3, is a state-of-the-art, real-time object detection algorithm that can detect multiple objects in an image or a video stream with remarkable speed and accuracy. Developed by Joseph Redmon and Ali Farhadi, YOLOv3 is a significant improvement over its predecessor, YOLOv2, with several innovative features such as a new backbone network, better object detection, and improved training techniques. Its architecture uses a single convolutional neural network (CNN) that simultaneously predicts bounding boxes and class probabilities for each object in the image, making it faster and more efficient than traditional object detection algorithms. YOLOv3 has a wide range of applications, including surveillance, autonomous vehicles, and robotics. In this blog, we will explore how to train YOLOv3 for custom object detection, a crucial task in many computer vision applications.
 
 # **Step 1**
 ## Enabling and testing the GPU
@@ -38,7 +23,7 @@ Next, we'll check if Tensorflow can connect to the GPU: By executing the followi
 # Check if NVIDIA GPU is enabled
 !nvidia-smi
 ```
-![Screenshot from 2023-04-07 20-12-06](https://user-images.githubusercontent.com/76246927/230632568-464bde47-e3f6-41d8-a550-e7285e08c8df.png)
+<img src = https://user-images.githubusercontent.com/76246927/230632568-464bde47-e3f6-41d8-a550-e7285e08c8df.png width = 650, height = 400 >
 
 # **Step 2**
 Mounting the Drive to store and load files.
