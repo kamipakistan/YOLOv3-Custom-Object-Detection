@@ -157,20 +157,22 @@ The `detector.data` file is a configuration file for training an object detectio
 * valid=../test.txt: This line specifies the path to the text file containing the paths to the validation images.
 * names=../custom.names: This line specifies the path to the file containing the names of the classes that the model will detect.
 * backup=../backup: This line specifies the path where the weights of the trained model will be saved during the training process.
-```
+
 
 # **Step 9**
 ## *Cloning Directory to use Darknet*
 Darknet, an open source neural network framework, will be used to train the detector. creating a local copy of the Darknet repository on your computer, which you can then use to build and train neural network models for object detection.
 
-```
+```Python
 %cd {HOME}
 !git clone https://github.com/AlexeyAB/darknet
 ```
+
 ```
 # Change current working directory to Darknet
 %cd darknet
 ```
+
 ### Change makefile to have GPU and OPENCV enabled, and other parameters for faster computation.
 ```
 !sed -i 's/OPENCV=0/OPENCV=1/' Makefile 
