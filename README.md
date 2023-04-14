@@ -73,7 +73,7 @@ We will train our model to recognise pistols in this project, thus we must gathe
 If you download the dataset from the 1st link, then no need to create image directory, just download the zip file into the `YOLOV3_Custom` directory and unzip it.
 
 1. The [link](https://drive.google.com/drive/folders/15usmgvkkP3HBRQhEDSrhbXtT-XKHKUoa?usp=share_link) of the dataset on which i have trained my model.
-2. [Link](https://github.com/ari-dasci/OD-WeaponDetection/tree/master/Pistol%20classification) from where i get the dataset.
+2. [Link](https://github.com/ari-dasci/OD-WeaponDetection/tree/master/Pistol%20detection) from where i get the dataset.
 
 ## Unzip Files
 Your Google Drive file location that you wish to unzip is the path in the cell below.
